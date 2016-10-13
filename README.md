@@ -15,3 +15,9 @@ Follow the below steps to setup your environment:
 `composer install`
 
 ### This went smooth for me.
+
+if gulpfile is having issues, try running phpspec
+
+In your CLI,
+
+`vendor/bin/phpspec run`
