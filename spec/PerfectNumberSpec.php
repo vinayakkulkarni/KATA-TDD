@@ -31,7 +31,7 @@ class PerfectNumberSpec extends ObjectBehavior
     {
     	$this->generate(6)->shouldReturn([1,2,3]);
     }
-    function it_will_return_2_4_7_for_28()
+    function it_will_return_1_2_4_7_14_for_28()
     {
     	$this->generate(28)->shouldReturn([1,2,4,7,14]);
     }
