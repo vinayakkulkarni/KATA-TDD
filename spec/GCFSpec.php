@@ -31,6 +31,10 @@ class GCFSpec extends ObjectBehavior
     {
     	$this->generate(12,10)->shouldReturn([2]);
     }
+    function it_will_return_1_on_5_7()
+    {
+        $this->generate(5,7)->shouldReturn([1]);
+    }
     function it_will_return_100_on_100_200()
     {
     	$this->generate(100,200)->shouldReturn([100]);
